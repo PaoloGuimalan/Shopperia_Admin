@@ -1,0 +1,241 @@
+#div_messages{
+    width: 100%;
+}
+
+#nav_messages{
+    /* background-color: aqua; */
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.link_messages{
+    text-decoration: none;
+    color: black;
+}
+
+#label_noh4{
+    color: grey;
+}
+
+#nav_list_ind{
+    display: flex;
+    padding: 5px;
+}
+
+.tbl_message_list{
+    /* background-color: aqua; */
+    margin-top: 10px;
+    width: 100%;
+    max-width: 100%;
+    word-break: break-all;
+}
+
+.label_p{
+    margin: 0px;
+    text-align: left;
+    font-size: 15px;
+    color: grey;
+    word-wrap: break-word;
+}
+
+.label_h4{
+    margin: 0px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.img_container{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 80px;
+}
+
+.li_list_messages{
+    /* border: solid 1px black; */
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    max-height: 150px;
+}
+
+.li_messages:first-of-type{
+    border: solid 1px black;
+    width: 30%;
+    overflow-y: scroll;
+}
+
+#div_background_drop{
+    z-index: -1;
+    display: block;
+    width: 75%;
+    height: 100%;
+    position: fixed;
+    background: url("../imgs/bg_logo_profile.png"), linear-gradient(#e10013, #D60789);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(100%);
+}
+
+.li_messages:nth-last-of-type(2n){
+    border: solid 1px black;
+    width: 65%;
+}
+
+.li_messages:last-of-type{
+    border: solid 1px black;
+    width: 30%;
+    display: none;
+}
+
+#nav_list_messages{
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+#nav_scan{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+#search_scan{
+    width: 100%;
+    max-width: 200px;
+    height: 30px;
+    margin-top: 0px;
+    border: solid 1px grey;
+    border-radius: 5px;
+    text-align: center;
+    /* background: beige; */
+}
+
+#btn_searcher{
+    height: 30px;
+    width: 100%;
+    max-width: 150px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: solid 1px grey;
+    cursor: pointer;
+}
+
+#label_h4{
+    color: grey;
+    margin-top: 25vh;
+}
+
+#nav_searcher_result{
+    /* background-color: aqua; */
+    border-radius: 5px;
+    width: 90%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+#nav_searcher_result:first-of-type{
+    margin-top: 20px;
+}
+
+#nav_searcher_result:nth-of-type(2n){
+    padding: 0px;
+    color: white;
+    background-color: black;
+    width: calc(90% + 10px);
+    min-height: 30px;
+    height: auto
+}
+
+#nav_searcher_result:nth-of-type(3n){
+    padding: 5px;
+    word-wrap: break-word;
+}
+
+#var_img_container{
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#receiver_label{
+    font-size: 15px;
+    margin: 0;
+    /* word-wrap: break-word; */
+}
+
+.label_id{
+    word-break: break-all;
+}
+
+#tbl_search_results{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#li_searcher_container{
+    padding-bottom: 50px;
+}
+
+.tbl_product_details{
+    /* background-color: #e10013; */
+    min-width: 90px;
+}
+
+#nav_shopdetails{
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    width: calc(90% - 10px);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: flex;
+    background: linear-gradient(#e10013, #D60789);
+    /* background-color: #e10013; */
+    /* text-align: left; */
+    /* background-color: aqua; */
+    color: white;
+}
+
+#shop_preview{
+    width: 100%;
+    height: 100%;
+    max-width: 70px;
+    max-height: 70px;
+    min-width: 70px;
+    min-height: 70px;
+    border-radius: 70px;
+    border: solid 1px grey;
+}
+
+#btn_chat{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top: 5px;
+    height: 25px;
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    /* text-align: center; */
+}
+
+#tbl_shop_details{
+    margin-top: 8px;
+}
+
+/* #li_shopimage_container{
+    width: 70%;
+} */

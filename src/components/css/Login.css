@@ -1,0 +1,20 @@
+#nav_login{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.input_login{
+    width: 100%;
+    max-width: 300px;
+    height: 30px;
+    margin: 2px;
+}
+
+#btn_login{
+    width: 100%;
+    max-width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
