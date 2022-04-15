@@ -1,0 +1,33 @@
+#div_shipin{
+    width: 100%;
+}
+
+.tbl_shippin{
+    width: 100%;
+}
+
+.tbl_shippin th{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    height: 30px;
+    width: 33% ;
+}
+
+.tbl_shippin tr:hover{
+    box-shadow: 0px 0px 5px black;
+}
+
+.details_break{
+    font-size: 14px;
+    word-break: break-all;
+}
+
+.blank_label{
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    top: 65%;
+    left: 80%;
+    transform: translate(-20%, 0);
+}

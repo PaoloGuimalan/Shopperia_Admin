@@ -80,3 +80,7 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.span_flexer{
+    display: flex;
+}
