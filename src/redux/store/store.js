@@ -1,5 +1,6 @@
 import { createStore, combineReducers } from 'redux'
 import { setadminlistmessages, setadminnav, setconversations, setlogincredentials, setordersdata } from '../actions/setlogincredentials'
+import { setsellerlist } from '../actions/setverifications'
 import { setbranches, setincomingorders, setondelivery, setorderstodeliver, setridersav, setshipinassigned, setshipinunassigned, setshipoutassigned, setshipoutunassigned, settransferringbranch } from '../actions/setorderslist';
 
 const combine = combineReducers({
@@ -17,7 +18,8 @@ const combine = combineReducers({
    shipinunassigned: setshipinunassigned,
    shipoutunassigned: setshipoutunassigned,
    shipinassigned: setshipinassigned,
-   shipoutassigned: setshipoutassigned
+   shipoutassigned: setshipoutassigned,
+   sellerlist: setsellerlist
 });
 
 const store = createStore(combine);
