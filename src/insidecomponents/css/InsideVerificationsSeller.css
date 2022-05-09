@@ -60,12 +60,36 @@
     border-radius: 5px;
 }
 
-.verified{
+.verified, .enabled{
     background-color: red;
     color: white;
 }
 
-.unverified{
+.unverified, .disabled{
     background-color: limegreen;
     color: white;
+}
+
+#pending{
+    background-color: orange;
+    color: white;
+}
+
+#rider_button_add{
+    float: left;
+    margin: 10px;
+    width: 100%;
+    max-width: 150px;
+    height: 30px;
+    background-color: white;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+#rider_button_add:hover{
+    transform: scale(1.1);
+}
+
+.inputs_addrider{
+    width: 90%;
 }

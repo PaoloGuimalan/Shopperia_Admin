@@ -1,4 +1,4 @@
-import { SET_BRANCHES, SET_INCOMING_ORDERS, SET_ONDELIVERY, SET_ORDERS_TO_DELIVER, SET_RIDERS_AV, SET_SHIP_IN_ASSIGNED, SET_SHIP_IN_UNASSIGNED, SET_SHIP_OUT_ASSIGNED, SET_SHIP_OUT_UNASSIGNED, SET_TRANSFERRING_BRANCH } from "../types/types";
+import { SET_BRANCHES, SET_INCOMING_ORDERS, SET_ONDELIVERY, SET_ORDERS_TO_DELIVER, SET_RIDERS_AV, SET_RIDER_LIST, SET_SHIP_IN_ASSIGNED, SET_SHIP_IN_UNASSIGNED, SET_SHIP_OUT_ASSIGNED, SET_SHIP_OUT_UNASSIGNED, SET_TRANSFERRING_BRANCH } from "../types/types";
 
 export const setridersav = (state = [], action) => {
     switch(action.type){
@@ -85,6 +85,15 @@ export const setshipoutassigned = (state = [], action) => {
     switch(action.type){
         case SET_SHIP_OUT_ASSIGNED:
             return action.shipoutassigned;
+        default:
+            return state;
+    }
+}
+
+export const setriderlist = (state = [], action) => {
+    switch(action.type){
+        case SET_RIDER_LIST:
+            return action.riderlist;
         default:
             return state;
     }
